@@ -1,0 +1,33 @@
+
+
+pHash --  test image set A\cars1.jpg  :  test image set B\car0.jpg  - >  56.25
+SSIM --  test image set A\cars1.jpg  :  test image set B\car0.jpg  - >  0.2614909972442287
+ORB --  test image set A\cars1.jpg  :  test image set B\car0.jpg  - >  0.551948051948052
+pHash --  test image set A\cars1.jpg  :  test image set B\car1.jpg  - >  62.5
+SSIM --  test image set A\cars1.jpg  :  test image set B\car1.jpg  - >  0.2844688403196735
+ORB --  test image set A\cars1.jpg  :  test image set B\car1.jpg  - >  0.4883720930232558
+pHash --  test image set A\cars1.jpg  :  test image set B\car2.jpg  - >  62.5
+SSIM --  test image set A\cars1.jpg  :  test image set B\car2.jpg  - >  0.3007228597599912
+ORB --  test image set A\cars1.jpg  :  test image set B\car2.jpg  - >  0.5269461077844312
+pHash --  test image set A\cars2.jpg  :  test image set B\car0.jpg  - >  68.75
+SSIM --  test image set A\cars2.jpg  :  test image set B\car0.jpg  - >  0.25078102864896124
+ORB --  test image set A\cars2.jpg  :  test image set B\car0.jpg  - >  0.9528301886792453
+pHash --  test image set A\cars2.jpg  :  test image set B\car1.jpg  - >  75.0
+SSIM --  test image set A\cars2.jpg  :  test image set B\car1.jpg  - >  0.26831720507681595
+ORB --  test image set A\cars2.jpg  :  test image set B\car1.jpg  - >  0.9069767441860465
+pHash --  test image set A\cars2.jpg  :  test image set B\car2.jpg  - >  62.5
+SSIM --  test image set A\cars2.jpg  :  test image set B\car2.jpg  - >  0.29005683657442366
+ORB --  test image set A\cars2.jpg  :  test image set B\car2.jpg  - >  0.9444444444444444
+
+*************************************************************************************************
+
+test image set A\cars1.jpg   ->   1110010010110010
+test image set A\cars2.jpg   ->   1110100110100010
+test image set B\car0.jpg   ->   1110110101000001
+test image set B\car1.jpg   ->   1010110110101000
+test image set B\car2.jpg   ->   1010110110011000
+******************************************************************************************
+test.py
+[{'car0_2.jpg': 62.5}, {'car0_1.jpg': 75.0}]
+[{'car0_2.jpg': 0.2666131051652406}, {'car0_0.jpg': 0.354037340232056}]
+[{'car0_0.jpg': 0.551948051948052}, {'car0_0.jpg': 0.9528301886792453}]
